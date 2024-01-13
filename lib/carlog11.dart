@@ -28,7 +28,7 @@ class _carlog11State extends State<carlog11> {
                       child: Icon(
                         Icons.arrow_back,
                         color: Colors.black,
-                        size: 40,
+                        size: 45,
                       ),
                     ),
                   ),
@@ -36,7 +36,7 @@ class _carlog11State extends State<carlog11> {
               ],
             ),
             Padding(
-              padding: const EdgeInsets.only(top: 38.0),
+              padding: const EdgeInsets.only(top: 50),
               child: Container(
                 width: 323,
                 height: 258,
