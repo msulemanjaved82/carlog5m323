@@ -32,6 +32,18 @@ class _sparkplugState extends State<sparkplug> {
                     ),
                   ),
                 ),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 267),
+                      child: PopupMenuButton(
+                          itemBuilder: (context) => [
+                                PopupMenuItem(child: Text('Save')),
+                                PopupMenuItem(child: Text('Delete')),
+                              ]),
+                    ),
+                  ],
+                )
               ],
             ),
             SizedBox(

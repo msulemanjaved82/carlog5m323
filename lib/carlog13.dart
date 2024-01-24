@@ -14,17 +14,16 @@ class _carlog13State extends State<carlog13> {
       body: Center(
         child: Column(
           children: [
-            Column(
+            Row(
               children: [
                 InkWell(
                   onTap: () {
                     Navigator.pop(context);
                   },
                   child: SizedBox(
-                    height: 130,
-                    width: 365,
+                    height: 120,
                     child: Padding(
-                      padding: EdgeInsets.only(right: 330),
+                      padding: EdgeInsets.only(right: 265),
                       child: Icon(
                         Icons.arrow_back,
                         color: Colors.black,
@@ -33,10 +32,22 @@ class _carlog13State extends State<carlog13> {
                     ),
                   ),
                 ),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(),
+                      child: PopupMenuButton(
+                          itemBuilder: (context) => [
+                                PopupMenuItem(child: Text('Save')),
+                                PopupMenuItem(child: Text('Delete')),
+                              ]),
+                    ),
+                  ],
+                )
               ],
             ),
             Padding(
-              padding: const EdgeInsets.only(top: 30),
+              padding: const EdgeInsets.only(top: 50),
               child: Container(
                 child: Column(
                   children: [

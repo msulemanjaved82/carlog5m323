@@ -70,7 +70,7 @@ class _loginState extends State<login> {
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsets.only(top: 60, left: 20),
+                    padding: EdgeInsets.only(top: 60, left: 11),
                     child: Container(
                       width: 290.0,
                       height: 72.0,
@@ -104,7 +104,7 @@ class _loginState extends State<login> {
                 Row(children: [
                   SizedBox(
                     child: Padding(
-                      padding: EdgeInsets.only(top: 40, left: 20),
+                      padding: EdgeInsets.only(top: 40, left: 14),
                       child: Icon(
                         (Icons.lock),
                         size: 35,
@@ -112,7 +112,7 @@ class _loginState extends State<login> {
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsets.only(top: 40, left: 20),
+                    padding: EdgeInsets.only(top: 40, left: 11),
                     child: Column(
                       children: [
                         Container(
@@ -148,7 +148,7 @@ class _loginState extends State<login> {
                   ),
                 ]),
                 Padding(
-                  padding: EdgeInsets.only(left: 200, top: 2),
+                  padding: EdgeInsets.only(left: 190, top: 2),
                   child: Container(
                     child: Row(children: [
                       Icon(
@@ -168,7 +168,7 @@ class _loginState extends State<login> {
                 Row(
                   children: [
                     Padding(
-                      padding: EdgeInsets.only(top: 28, left: 30),
+                      padding: EdgeInsets.only(top: 28, left: 22),
                       child: Icon(
                         (Icons.check_box),
                         size: 25,

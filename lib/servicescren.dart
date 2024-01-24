@@ -55,7 +55,7 @@ class _servicescrenState extends State<servicescren> {
                       ),
                     ),
                   ),
-                  SizedBox(width: 100),
+                  SizedBox(width: 70),
                   InkWell(
                     onTap: () {
                       Navigator.push(context,

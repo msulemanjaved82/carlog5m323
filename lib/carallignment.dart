@@ -31,6 +31,18 @@ class _carState extends State<carallignment> {
                     ),
                   ),
                 ),
+                Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(left: 267),
+                      child: PopupMenuButton(
+                          itemBuilder: (context) => [
+                                PopupMenuItem(child: Text('Save')),
+                                PopupMenuItem(child: Text('Delete')),
+                              ]),
+                    ),
+                  ],
+                )
               ],
             ),
             SizedBox(
@@ -75,32 +87,6 @@ class _carState extends State<carallignment> {
                   child: TextField(
                     decoration: InputDecoration(
                       hintText: 'Tyre Size',
-                      border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(12),
-                          borderSide: BorderSide(
-                            width: 2,
-                            color: Colors.white,
-                          )),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            SizedBox(
-              width: 273,
-              height: 39,
-            ),
-            Row(
-              children: [
-                SizedBox(
-                  width: 57,
-                ),
-                Container(
-                  width: 245,
-                  height: 55.88,
-                  child: TextField(
-                    decoration: InputDecoration(
-                      hintText: 'Last Allignment Date',
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                           borderSide: BorderSide(
